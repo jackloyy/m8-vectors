@@ -21,7 +21,8 @@ len <- length(all.numbers)
 ### Bonus ###
 
 # Create a vector `odd` that holds the odd numbers from 1 to 100
-
+all <- 1:100
+odd <- all[c(TRUE, FALSE)]
 
 # Using the `all` and `%%` operators, confirm that all of the numbers in your `odd` vector are odd
 
